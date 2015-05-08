@@ -1,0 +1,22 @@
+/* pantalla grande */
+@media screen and (min-width: 1200px) {
+	/*body { color: red;}*/
+}
+/* pantalla tablet */
+@media screen and (min-width: 768px) and (max-width: 979px) {
+	body { color: green;}
+}
+/* pantalla smartphone o tablet */
+@media screen and (max-width: 767px) {
+	body { color: blue;}
+}
+/* pantalla smartphone */
+@media screen and (max-width: 480px) {
+	body { color: yellow;}
+}
+
+.text-big
+{
+	font-size: 300px;
+	line-height: 320px;
+}
